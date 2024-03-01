@@ -1,6 +1,6 @@
 import React, { createRoot } from "react-dom/client";
 // Reactの厳しいモードを設定
-import { StrictMode } from "react";
+// import { StrictMode } from "react";
 import { App } from "./App";
 
 // id="root"のDom取得
@@ -12,8 +12,8 @@ const root = createRoot(rootElement)
 // const App = () =>  <h1>こんにちは！</h1>;
 
 root.render(
-  <StrictMode>
+  // <StrictMode>
     <App />
-  </StrictMode>
+  // </StrictMode>
 );
 

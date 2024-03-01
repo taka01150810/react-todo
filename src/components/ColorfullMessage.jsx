@@ -14,6 +14,7 @@
 
 // 上記のようにpropsを毎回書くのがめんどくさい場合
 export const ColorfullMessage = (props) => {
+    console.log('---ColorfullMessage---')
     const { color, children } = props
     const contentStyleGreen = {
         // オブジェクトとプロパティが同じ名前の場合は省略できる
