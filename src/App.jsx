@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import ColorfullMessage from "./components/ColorfullMessage";
+import Hoge from "./components/ColorfullMessage";
 
 // exportで他のファイルからも使えるようにする
 export const App = () => {
@@ -70,8 +70,8 @@ export const App = () => {
         {/* オブジェクトでCSSを表現することができる */}
         <h1 style={{ color: 'red' }}>こんにちは！</h1>
 
-        <ColorfullMessage color="blue" >お元気ですか？</ColorfullMessage>
-        <ColorfullMessage color="green" message="元気です！" />
+        <Hoge color="blue" >お元気ですか？</Hoge>
+        <Hoge color="green" message="元気です！" />
 
         <button onClick={() => {alert('こんにちは')}}>ボタン</button>
         {/* { console.log('こんにちは') } */}
