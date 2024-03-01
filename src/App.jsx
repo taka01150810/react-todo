@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ColorfullMessage } from "./components/ColorfullMessage";
+import ColorfullMessage from "./components/ColorfullMessage";
 
 // exportで他のファイルからも使えるようにする
 export const App = () => {

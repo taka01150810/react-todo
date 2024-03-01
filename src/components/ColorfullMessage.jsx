@@ -13,7 +13,7 @@
 // }
 
 // 上記のようにpropsを毎回書くのがめんどくさい場合
-export const ColorfullMessage = (props) => {
+const ColorfullMessage = (props) => {
     console.log('---ColorfullMessage---')
     const { color, children } = props
     const contentStyleGreen = {
@@ -34,3 +34,5 @@ export const ColorfullMessage = (props) => {
 // propsそのものを省略する書き方
 // export const ColorfullMessage = ({ color, children }) => {
 // }
+
+export default ColorfullMessage;
